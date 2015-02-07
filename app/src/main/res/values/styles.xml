@@ -4,5 +4,27 @@
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
     </style>
+    <!--TODOS LOS ELEMENTOS QUE SE CREARAN AQUI TIENEN TODOS LOS ATRIBUTOS QUE LE AGREGAMOS
+    A LOS PROYECTOS APP-LLEVAME TAXI, Y APP-LLEVAME USUARIO-->
+    <style name="style_button">
+        <item name = "android:layout_width">280dp</item>
+        <item name = "android:layout_height">55dp</item>
+        <item name = "android:inputType">textPassword</item>
+        <item name = "android:textSize">16sp</item>
+        <item name = "android:typeface">monospace</item>
+        <item name = "android:hint">Contraseña</item>
+        <item name = "android:textColorHint">#ff4fff3b</item>
+    </style>
+    <style name ="style_button_uno">
+
+        <item name = "android:layout_width">280dp</item>
+        <item name = "android:layout_height">55dp</item>
+        <item name = "android:inputType">textPassword</item>
+        <item name = "android:textSize">16sp</item>
+        <item name = "android:hint">Contraseña</item>
+        <item name = "android:textColorHint">#ff2c1cff</item>
+
+
+    </style>
 
 </resources>

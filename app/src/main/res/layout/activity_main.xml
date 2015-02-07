@@ -10,32 +10,52 @@
     android:id="@+id/layout_button">
 
 
-
-    <TextView
-        android:layout_width="fill_parent"
+    <EditText
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="julio cesar pari mamani"
-        android:id="@+id/textView"
-        android:textSize="@dimen/text_size"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:gravity="center" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="50 minutos en llegar"
-        android:textSize="@dimen/text_size_uno"
-        android:id="@+id/textView2"
+        android:background="@drawable/button_number_2"
+        android:id="@+id/editusuario1"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:gravity="center"
+        android:textColorHint="#ff5b50ff"
         android:layout_gravity="center_horizontal" />
 
-    <TextView
-        android:layout_width="wrap_content"
+    <EditText
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="vive en ciudad nueva"
-        android:textSize="@dimen/text_size_dos"
-        android:id="@+id/textView3"
+        android:id="@+id/editText2"
+        android:inputType="textPassword"
+        android:typeface="monospace"
+        android:gravity="center"
+        android:hint="Contraseña"
+        android:textColorHint="#ff41ff17"
         android:layout_gravity="center_horizontal" />
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText3"
+        android:inputType="textPassword"
+        android:gravity="center"
+        android:hint="Contraseña"
+        android:textColorHint="#ffff3648"
+        android:layout_gravity="center_horizontal" />
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText4"
+        android:inputType="textPassword"
+        android:gravity="center"
+        android:hint="Contraseña"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText5"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:layout_gravity="center_horizontal" />
 </LinearLayout>
