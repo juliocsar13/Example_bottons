@@ -3,6 +3,7 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
+
     </style>
     <!--TODOS LOS ELEMENTOS QUE SE CREARAN AQUI TIENEN TODOS LOS ATRIBUTOS QUE LE AGREGAMOS
     A LOS PROYECTOS APP-LLEVAME TAXI, Y APP-LLEVAME USUARIO-->
@@ -27,4 +28,15 @@
 
     </style>
 
+    <style name="button_maps">
+
+        <item name="android:background">@drawable/button_number_2</item>
+        <item name="android:layout_width">@dimen/margin_with_buttonmaps</item>
+        <item name="android:layout_height">@dimen/margin_height_buttonmaps</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/textsize_botton</item>
+        <item name="android:textColor">#ffffffff</item>
+
+    </style>
 </resources>

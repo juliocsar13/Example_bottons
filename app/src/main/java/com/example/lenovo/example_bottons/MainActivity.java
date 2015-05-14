@@ -11,20 +11,32 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 
 public class MainActivity extends ActionBarActivity {
 
-    protected TextView customFont;
+    /*protected TextView customFont;*/
+
+    Button btn_call_taxi;
+    Button btn_cancel_taxi;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.layout_disable_button);
 
-        customFont = (TextView)findViewById(R.id.editusuario1);
+        btn_call_taxi = (Button) findViewById(R.id.btn_call);
+        btn_cancel_taxi = (Button) findViewById(R.id.btn_cancel);
+        btn_call_taxi.setEnabled(true);
+        btn_cancel_taxi.setEnabled(false);
+        btn_cancel_taxi.setBackgroundResource (R.drawable.botton_number_1);
+        btn_call_taxi.setBackgroundResource(R.drawable.button_number_5);
+       /* customFont = (TextView)findViewById(R.id.editusuario1);
         Typeface fontusuario = Typeface.createFromAsset(getAssets(),"Balkeno.ttf");
-        customFont.setTypeface(fontusuario);
+        customFont.setTypeface(fontusuario);*/
     }
 
 

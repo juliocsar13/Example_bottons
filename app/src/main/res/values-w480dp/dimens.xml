@@ -5,4 +5,8 @@
     <dimen name="text_size">20sp</dimen>
     <dimen name="text_size_uno">17sp</dimen>
     <dimen name="text_size_dos">17sp</dimen>
+
+    <dimen name="margin_with_buttonmaps">240dp</dimen>
+    <dimen name="margin_height_buttonmaps">80dp</dimen>
+    <dimen name="textsize_botton">16sp</dimen>
 </resources>

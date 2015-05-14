@@ -9,53 +9,52 @@
     android:orientation="vertical"
     android:id="@+id/layout_button">
 
-
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
         android:background="@drawable/button_number_2"
         android:id="@+id/editusuario1"
         android:hint="Contraseña"
         android:inputType="textPassword"
-        android:gravity="center"
+
         android:textColorHint="#ff5b50ff"
         android:layout_gravity="center_horizontal" />
 
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:ellipsize="start"
         android:id="@+id/editText2"
-        android:inputType="textPassword"
-        android:typeface="monospace"
+        android:hint="@string/Contraseña"
         android:gravity="center"
-        android:hint="Contraseña"
-        android:textColorHint="#ff41ff17"
+        android:password="true"
         android:layout_gravity="center_horizontal" />
 
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
         android:id="@+id/editText3"
-        android:inputType="textPassword"
-        android:gravity="center"
         android:hint="Contraseña"
         android:textColorHint="#ffff3648"
-        android:layout_gravity="center_horizontal" />
+        android:inputType="textPassword"
+        android:layout_gravity="center_horizontal"
+        android:autoText="false" />
 
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
         android:id="@+id/editText4"
         android:inputType="textPassword"
-        android:gravity="center"
+
         android:hint="Contraseña"
         android:layout_gravity="center_horizontal" />
 
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
         android:id="@+id/editText5"
-        android:gravity="center"
+        android:gravity="center_horizontal"
         android:inputType="textPassword"
+        android:hint="Contraseña"
         android:layout_gravity="center_horizontal" />
 </LinearLayout>
