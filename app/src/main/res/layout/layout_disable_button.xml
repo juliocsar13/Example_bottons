@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:text="CALL TAXI"
+        android:textColor="#ffffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/btn_call"
+        android:background="@drawable/rojo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:text="CANCEL TAXI"
+        android:id="@+id/btn_cancel"
+        android:textColor="#ffffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/asul"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/btn_call"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
